@@ -1,0 +1,18 @@
+metadata:
+  access_right: open
+  license: CC-BY-4.0
+  publication_type: article
+  upload_type: publication
+pipelines:
+  experiment1:
+    envs:
+    - host
+    path: pipelines/experiment1
+    stages:
+    - setup
+    - run
+    - post-run
+    - validate
+    - teardown
+popperized:
+- github/popperized
